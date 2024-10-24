@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e9f2f7;
+    color: #333;
+}
+
+header {
+    background-color: #002d42;
+    padding: 2rem;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 6px #76acb6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.background {
+    background-image: url('../img/Fundo.png');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+
+#menu {
+    margin-left: auto;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+    transition: text-decoration 0.3s;
+    color: #1EE45A;
+}
+
+#logo img {
+    height: 100px;
+}
+
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.video-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.sobre {
+    padding: 2rem;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+
+.texto {
+    flex: 2;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagem {
+    flex: 1;
+    text-align: center;
+}
+
+.imagem img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #1EE45A;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #0f9c39;
+    transition: background-color 0.3s ease;
+}
+
+footer {
+    background-color: #002d42;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+footer p strong {
+    color: #1EE45A;
+}
+
+.contato {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
