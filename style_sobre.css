@@ -24,7 +24,7 @@ header {
 }
 
 .background {
-    background-image: url('../img/Fundo.png');
+    background-image: url('./img/Fundo.png');
     background-size: cover;
     background-position: center;
     position: fixed;
@@ -160,4 +160,17 @@ footer p strong {
     margin: 0 auto;
 }
 
+.btn-login, .btn-cadastro {
+    background-color: #0fb340ab;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
 
+.btn-login:hover, .btn-cadastro:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    background-color: #1b9d56;
+    color: white;
+}
