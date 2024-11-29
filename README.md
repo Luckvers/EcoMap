@@ -25,21 +25,20 @@ Bem-vindo ao **EcoMap**, um site dedicado a conectar usuários com **postos de c
 
 ```bash
 .
-├── CSS/
-│   ├── style_postos.css
-│   ├── style_sobre_nos.css
-│   └── style_noticias.css
-├── HTML/
-│   ├── postos_disponiveis.html
-│   ├── sobre_nos.html
-│   └── noticias.html
-├── JS/
-│   ├── postos.js
+├── index.html
+├── postos_disponiveis.html
+├── sobre_nos.html
+├── noticias.html
+├── style_postos.css
+├── style_sobre_nos.css
+├── style_noticias.css
+├── style_landing.css
+├── postos.js
 ├── img/
 │   ├── Logo Ecomap.png
 │   ├── Facens Image.png
 │   ├── Confiança image.png
-│   ├── ...
+│   └── ...
 └── README.md
 ```
 # Tecnologias Utilizadas
@@ -55,6 +54,8 @@ Bem-vindo ao **EcoMap**, um site dedicado a conectar usuários com **postos de c
 1. Clone ou faça o download do repositório.
 2. Abra os arquivos HTML em um navegador para acessar as páginas.
 3. Certifique-se de que os caminhos das imagens e scripts estejam corretos no seu ambiente local.
+
+Ou se preferir acesse este link e [Visite o nosso site](http://eco-map-chi.vercel.app)
 
 # Contato
 
