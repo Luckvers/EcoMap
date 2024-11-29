@@ -29,10 +29,14 @@ Bem-vindo ao **EcoMap**, um site dedicado a conectar usuários com **postos de c
 ├── postos_disponiveis.html
 ├── sobre_nos.html
 ├── noticias.html
+├── login.html
+├── cadastro.html
 ├── style_postos.css
 ├── style_sobre_nos.css
 ├── style_noticias.css
 ├── style_landing.css
+├── style_login.css
+├── style_cadastro.css
 ├── postos.js
 ├── img/
 │   ├── Logo Ecomap.png
